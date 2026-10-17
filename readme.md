@@ -2,14 +2,14 @@
 
 ## MVP
 
-- Heading Metric/ Imperical Unit Conversation blue background white text
-- input field where a number can be entered
-- a white button with black text Convert
-- this was the head below it the blue background stops and there are 3 cards
-- each has a dark blue heading and a text that describes the calculations
-- example card heading Length (Meter/Feet)
-- example card text : 20 meters = 65,616 feet | 20 feet = 6.096 meters
-- do the same for volume and mass
+- Heading Metric/ Imperical Unit Conversation blue background white text DONE
+- input field where a number can be entered DONE
+- a white button with black text Convert DONE
+- this was the head below it the blue background stops and there are 3 cards DONE
+- each has a dark blue heading and a text that describes the calculations DONE
+- example card heading Length (Meter/Feet) DONE
+- example card text : 20 meters = 65,616 feet | 20 feet = 6.096 meters DONE
+- do the same for volume and mass DONE
 
 ## conversion numbers
 
@@ -38,9 +38,11 @@
 
 ### Logic
 
-- select the input field the button and the card container and put them in a variable
-- create a function render that converts units meter in feet liter in gallon kilogram in pound both ways around
-- as an argument pass in num
-- for testing console.log the results
-- event listener on the button that calls the render function
-- change the console.logs into cards
+- select the input field the button and the card container and put them in a variable DONE
+- create a function render DONE
+- as an argument pass in num DONE
+- set num to unitInput.value and convert it into a number DONE
+-
+- for testing console.log the results DONE
+- event listener on the button that calls the render function DONE
+- change the console.logs into cards DONE
