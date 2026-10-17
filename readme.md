@@ -27,7 +27,20 @@
 
 ### Setup
 
-- basic html structure
-- connect css
-- connect css
-- git repo
+- basic html structure DONE
+- connect css DONE
+- connect js DONE
+- git repo DONE
+
+### Styling
+
+- Style Page Acoording to the Design file DONE
+
+### Logic
+
+- select the input field the button and the card container and put them in a variable
+- create a function render that converts units meter in feet liter in gallon kilogram in pound both ways around
+- as an argument pass in num
+- for testing console.log the results
+- event listener on the button that calls the render function
+- change the console.logs into cards

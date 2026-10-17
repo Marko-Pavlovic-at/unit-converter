@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #6943ff;
+  height: 400px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#unit-input {
+  height: 90px;
+  width: 100px;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #b295ff;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#unit-input:focus {
+  outline: none;
+}
+
+#convert-btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 0.3rem;
+  background-color: white;
+}
