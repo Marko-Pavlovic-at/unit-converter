@@ -9,7 +9,11 @@ const cards = document.querySelector(".cards");
 // Event Listener
 
 convertBtn.addEventListener("click", function () {
+  if (unitInput.value.trim()) {
+    return;
+  }
   render();
+  unitInput.value = "";
 });
 
 // functions
@@ -20,15 +24,15 @@ function render() {
   // - 1 meter = 3.281 feet
   //- 1 liter = 0.264 gallon
   //- 1 kilogram = 2.204 pound
-  let unit = Number(unitInput.value);
-  let metersToFeet = unit * 3.281;
-  let feetToMeter = unit / 3.281;
-  let literToGallon = unit * 0.264;
-  let gallonToLiter = unit / 0.264;
-  let kiloToPound = unit * 2.204;
-  let poundToKilo = unit / 2.204;
+  const unit = Number(unitInput.value);
+  const metersToFeet = unit * 3.281;
+  const feetToMeter = unit / 3.281;
+  const literToGallon = unit * 0.264;
+  const gallonToLiter = unit / 0.264;
+  const kiloToPound = unit * 2.204;
+  const poundToKilo = unit / 2.204;
 
-  cards.innerHTML += `
+  cards.innerHTML = `
 
     
 

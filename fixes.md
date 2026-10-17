@@ -1,0 +1,4 @@
+- clear input after button click
+- fix multiple cards innerhtml = DONE
+- empty input should do nothing
+- fix let
