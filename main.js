@@ -9,7 +9,7 @@ const cards = document.querySelector(".cards");
 // Event Listener
 
 convertBtn.addEventListener("click", function () {
-  if (unitInput.value.trim()) {
+  if (unitInput.value === "".trim()) {
     return;
   }
   render();
